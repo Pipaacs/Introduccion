@@ -1,0 +1,36 @@
+.Titulo{
+    color: #8338ec;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.img{
+    width: 400px;
+    border-radius: 8px;
+}
+
+.encabezado2 {
+    color: #f15bb5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.cuerpo{
+    background-color: #333533;
+}
+
+.textoazul{
+    color: #a2d2ff;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lista{
+    color: #a2d2ff;
+}
+
+.ll{
+    font-weight: bold;
+}

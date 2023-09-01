@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color:darkblue;
+    color:white; 
+
+    padding: 10px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.ensancha1{
+    flex-grow: 1;
+}
+
+.ensancha2{
+    flex-grow: 2;
+}
+
+.ensancha3{
+    flex-grow: 3;
+}
+
+.pan{
+
+    background-color: burlywood;
+    margin: 1em;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    border-radius: 1em;
+    text-align: center;
+}
+
+.lechuga{
+    background-color: rgb(56, 211, 56);
+    /* height: 100px; */
+
+    height: 2em;
+
+}
+
+.queso{
+    background-color: rgb(255, 191, 0);
+    height: 20px;
+
+}
+
+.carne{
+
+    background-color: maroon;
+
+    height: 4em;
+
+}
+
+.mayonesa{
+    background-color: aliceblue;
+    height: 0.5em;
+
+}
+
+#mamba-negra{
+    background-color: black;
+    color: white;
+}
+
+#mamba-negra .queso{
+    background-color: blue;
+    
+}
+
+

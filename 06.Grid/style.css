@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-4 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Tambien se puede utilizar la unidad de medida fr llamada fracción */
+}
+
+@media screen and (min-width:300px) {
+
+section{
+    background-color: plum;
+    border: 2px solid purple;
+    grid-column:span 2;
+}
+
+}
+
+
+@media screen and (max-width:300px) {
+
+    section{
+        background-color: plum;
+        border: 2px solid rgb(23, 0, 128);
+        grid-column: span 4;
+    }
+    
+    }
+
+
+aside{
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#principal {
+    background-color: skyblue;
+    border: 2px solid black;
+    grid-column: 1 / 4;
+    /*El espaco que ocupa es desde la primera linea del grid hasta la cuarta linea del grid*/
+}

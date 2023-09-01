@@ -1,0 +1,14 @@
+.image{
+    width: 250px;
+
+}
+
+.profile-description{
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+}
+
+.skills{
+    src: format();
+}
